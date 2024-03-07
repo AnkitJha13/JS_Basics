@@ -7,3 +7,7 @@
   successfully completed.
 - reject is a function that will be called, when the async operation fails or if some error
   occurs
+
+
+- then() method is used to access the result when the promise is fulfilled.
+- catch() method is used to access the result/error when the promise is rejected.
