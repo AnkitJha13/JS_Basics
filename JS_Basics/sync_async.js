@@ -5,3 +5,19 @@ sync
 async
 - It is multi threaded
 - All the tasks will be running in parallel simultaneously and the one which gets executed first will be returned
+
+
+
+// to write async code we use these things 
+- fetch
+- XMLHttpRequest
+- axios
+- promises
+- setTimeout
+- setInterval
+
+
+// now to run their ans we use
+- callbacks
+- async await
+- then catch
