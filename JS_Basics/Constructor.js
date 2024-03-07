@@ -11,7 +11,7 @@ function Person(name, age, gender) {
   this.gender = gender;
 }
 
-var person1 = new Person("Vivek", 76, "male");     // output - // output-  Person { name: 'Vivek', age: 76, gender: 'male' }
+var person1 = new Person("Vivek", 76, "male");     // output - Person { name: 'Vivek', age: 76, gender: 'male' }
 console.log(person1);
 
 
