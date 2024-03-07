@@ -10,7 +10,8 @@ var obj = {
   name: "athena"
 }
 
-abd.call(obj)
+abd.call(obj)        // athena
+  
 
 
 
@@ -19,3 +20,18 @@ abd.call(obj)
 
 
 apply
+- The apply method is similar to the call() method
+- call() method takes arguments separately whereas, apply() method takes arguments as an array.
+
+
+
+
+function abd(message1, message2, message3) {
+    console.log(this, message1, message2, message3);
+}
+
+var obj = {
+    name: "athena"
+}
+
+abd.apply(obj, ["mamba", "athena", "virat"])        // {name: 'athena'} 'mamba' 'athena' 'virat'
