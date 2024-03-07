@@ -1,4 +1,4 @@
-// A callback is a function that will be executed aer another function gets executed
+// A callback is a function that will be executed as another function gets executed
 
 
 // setTimeout wala hi example chal jayega callback function mai to 
