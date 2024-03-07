@@ -35,3 +35,37 @@ var obj = {
 }
 
 abd.apply(obj, ["mamba", "athena", "virat"])        // {name: 'athena'} 'mamba' 'athena' 'virat'
+
+
+
+
+
+
+
+
+
+
+bind
+- Bind is similar to call just that the it doesn't calls the function straightway but return the function to call it 
+  later whenever we want
+
+
+
+function abd() {
+    console.log(this);
+}
+
+var obj = {
+    name: "athena",
+    age: 24
+}
+
+var newfunc = abd.bind(obj)      // yaha tak ka output nhi aayega jo newfunc mai stored hai usse jitne baar call karenge utne baar output dikhega 
+ 
+newfunc()          // {name: 'athena', age: 24}
+newfunc()          // {name: 'athena', age: 24}
+
+
+
+
+
