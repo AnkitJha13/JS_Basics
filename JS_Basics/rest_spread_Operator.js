@@ -1,8 +1,11 @@
 rest
+- Basically to collect all the remaining arguments into a single array.
 
+function abd(a,b,c,...d){
+    console.log(a,b,c, d);  // in d all elements will be stored in form of array
+}
 
-
-
+abd(1,2,3,4,5,6,7,8);            // output is 1,2,3,[4,5,6,7,8]
 
 
 
