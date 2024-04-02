@@ -1,1 +1,1 @@
-# JS_Basics
+# For learning JS basics and core concepts
