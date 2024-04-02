@@ -11,6 +11,7 @@ function mamba(val) {
 }
 
 a.forEach(mamba); // This is using a higher-order function
+                  // 3,4,5,6,7
 
 console.log(a);  // output - 1,2,3,4,5
 
