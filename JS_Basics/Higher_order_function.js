@@ -1,4 +1,4 @@
-// Higher order function are those functions which accepth the function as a parameter or return a function or both 
+// Higher order function are those functions which accept the function as a parameter or return a function or both 
 
 
 // for-each is a higher order function 
