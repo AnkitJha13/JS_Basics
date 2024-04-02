@@ -4,12 +4,15 @@
 // for-each is a higher order function 
 
 
-let a = [1,2,3,4,5]
+let a = [1, 2, 3, 4, 5];
 
-a.forEach(function(val) {   // output - 3,4,5,6,7
-    console.log(val+2);
-});
-console.log(a);  // [1,2,3,4,5]   // for-each makes changes in temporary copy
+function mamba(val) {
+    console.log(val + 2);  // output - 3,4,5,6,7
+}
+
+a.forEach(mamba); // This is using a higher-order function
+
+console.log(a);  // output - 1,2,3,4,5
 
 // here forEach is a function in which which is accepting function as a parameter here 
 
