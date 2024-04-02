@@ -32,6 +32,8 @@ console.log(ans);  // output - [4,5,6,7,8]
 
 // reduce:-
 It reduces all the elements of the array to a single value by repeatedly applying a function
+
+
 let num = [1, 2, 3, 4, 5]
 let ans = num.reduce((acc, val) => {
     return acc = acc + val;
