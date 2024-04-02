@@ -14,7 +14,7 @@ console.log(ans);  // output - [3,6,9,12,15]
 
 
 // filter:-
-It filters the elements of the array that return false for the applied condition and returns the array which contains elements that satisfy the applied condition. 
+It filters the elements of the array for the applied condition and returns the array which contains elements that satisfy the applied condition. 
 
 let num = [1,2,3,4,5,6,7,8]
 let ans = num.filter(function(value) {
