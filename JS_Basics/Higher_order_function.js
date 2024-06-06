@@ -12,7 +12,7 @@ function mamba(val) {
 }
 
 a.forEach(mamba); // This will call mamba for each element in the array, producing output
-                  // This is using a higher-order function
+                  // This is using a higher-order function forEach
                   // 3,4,5,6,7
 
 console.log(a);  // output - 1,2,3,4,5
