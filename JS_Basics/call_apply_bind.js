@@ -26,15 +26,18 @@ apply
 
 
 
+
 function abd(message1, message2, message3) {
     console.log(this, message1, message2, message3);
 }
 
 var obj = {
-    name: "athena"
+    name: "athena",
+    age: 21,
+    domain: "web development"
 }
 
-abd.apply(obj, ["mamba", "athena", "virat"])        // {name: 'athena'} 'mamba' 'athena' 'virat'
+abd.apply(obj, ["mamba", "levinho", "virat"])          // { name: 'athena', age: 21, domain: 'web development' } mamba levinho virat
 
 
 
