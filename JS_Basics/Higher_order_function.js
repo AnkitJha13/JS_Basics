@@ -8,12 +8,15 @@ let a = [1, 2, 3, 4, 5];
 
 function mamba(val) {
     console.log(val + 2);  // output - 3,4,5,6,7
+                           // this value will not print anything as the function is not called 
 }
 
-a.forEach(mamba); // This is using a higher-order function
+a.forEach(mamba); // This will call mamba for each element in the array, producing output
+                  // This is using a higher-order function
                   // 3,4,5,6,7
 
 console.log(a);  // output - 1,2,3,4,5
+                 // giving the output of original array itself
 
 // here forEach is a function in which which is accepting function as a parameter here 
 
