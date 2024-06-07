@@ -1,7 +1,7 @@
-// Constructor functions are used to create objects in javascript.
+# Constructor functions are used to create objects in javascript with similar properties and methods..
   
-// If we want to create multiple objects having similar properties and methods,
-// constructor functions are used.
+# If we want to create multiple objects having similar properties and methods,
+  constructor functions are used.
 
 
 
