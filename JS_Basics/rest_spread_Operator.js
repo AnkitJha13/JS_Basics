@@ -53,10 +53,11 @@ console.log(b); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 
+
 // better example here
 let a = [1,2,3,4,5]
-let b = [4,2,1,6,0]
+let b = [6,7,8,9,10]
 
 let c = [...a,...b]
 
-console.log(c)    // Output : [1,2,3,4,5,4,2,1,6,0]
+console.log(c)    // Output : [1,2,3,4,5,6,7,8,9,10]
