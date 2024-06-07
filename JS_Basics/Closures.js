@@ -3,19 +3,28 @@
 
 
 
-function outerfunction(){
-    let outervariable = 'i am outer variable';
+// Define a function named outerFunction
+function outerFunction() {
+    // Declare a variable in the outer function's scope
+    let outerVariable = 'I am from outerFunction';
 
-    function innerfunction(){
-        console.log(outervariable); // innerFunction has access to outerVariable
+    // Define an inner function within outerFunction
+    function innerFunction() {
+        // innerFunction can access outerVariable because of closure
+        console.log(outerVariable);
     }
-    return innerfunction; // Call outerFunction to get innerFunction
+
+    // Return the innerFunction from outerFunction
+    return innerFunction;
 }
 
-let inner = outerfunction();
 
-inner();  // Call innerFunction
-inner();
-inner();
+// Call outerFunction and store the returned innerFunction in a variable
+let inner = outerFunction();
 
-// output "I am from outerFunction"
+
+// Call the innerFunction stored in inner
+inner(); // Output: "I am from outerFunction"
+inner(); // Output: "I am from outerFunction"
+inner(); // Output: "I am from outerFunction"
+
