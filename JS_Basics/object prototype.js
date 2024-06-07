@@ -27,7 +27,7 @@ console.log(abd.cantalk);
 
 
 
-## MORE preferred
+## MORE preferred   (as directly using __proto__ can lead to performance issues)
 
 
 
