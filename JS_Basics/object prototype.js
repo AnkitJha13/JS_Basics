@@ -20,3 +20,29 @@ console.log(abd.name);
 console.log(abd.age);
 console.log(abd.canwalk);
 console.log(abd.cantalk);
+
+
+
+
+
+
+
+## MORE preferred
+
+
+
+var Human = {
+    age: 19,
+    canwalk: "true",
+    cantalk: "true"
+}
+
+var abd = Object.create(Human)
+
+abd.name = "athena"
+
+
+console.log(abd.name);
+console.log(abd.age);
+console.log(abd.canwalk);
+console.log(abd.cantalk);
