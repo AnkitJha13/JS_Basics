@@ -18,3 +18,16 @@ abd = () => {
   console.log("athena");
 }
 abd();
+
+
+
+const addTwo = (num1, num2) => {
+   return num1 + num2;
+}
+
+addTwo(3,6)
+
+
+
+
+const addTwo = (num1, num2) =>  num1 + num2;
