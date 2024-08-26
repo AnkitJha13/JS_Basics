@@ -9,6 +9,22 @@
 // output is --> game over buddy
 
 
+// named IIFE
+
+(function athena(){
+    console.log("game over buddy");
+})();
+
+
+
+// without named IIFE
+
+( (name) => {
+    console.log(`game over buddy ${name}`);
+})("athena")
+
+
+
 
 
 
