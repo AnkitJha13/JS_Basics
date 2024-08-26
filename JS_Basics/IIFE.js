@@ -7,3 +7,50 @@
 })();
 
 // output is --> game over buddy
+
+
+
+
+
+// uses
+// Avoid Polluting the Global Scope
+
+// Without IIFE
+
+var x = 10;
+
+function sayHello() {
+    console.log("Hello!");
+}
+
+console.log(x); // 10
+sayHello(); // Hello!
+
+// Another script might overwrite x or sayHello
+var x = 20;
+function sayHello() {
+    console.log("Hi!");
+}
+
+console.log(x); // 20
+sayHello(); // Hi!
+
+
+
+// With IIFE
+
+
+(function() {
+    var x = 10;
+
+    function sayHello() {
+        console.log("Hello!");
+    }
+
+    console.log(x); // 10
+    sayHello(); // Hello!
+})();
+
+// x and sayHello are not accessible outside the IIFE
+console.log(typeof x); // undefined
+console.log(typeof sayHello); // undefined
