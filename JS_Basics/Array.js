@@ -33,3 +33,26 @@ const arr = [1, 2, 3, 4, 5];
 const splicedArr = arr.splice(1, 2, 10, 11); // [2, 3] (removed elements)
 console.log(arr); // [1, 10, 11, 4, 5] (original array modified)
 
+
+
+
+
+
+// for each loop using function and arrow function 
+
+- function 
+  
+const coding = ["c++", "JS", "ReactJS", "JAVA"];
+
+coding.forEach(function (val){
+    console.log(val);
+})
+
+
+- using arrow function 
+
+coding.forEach((val) => {
+    console.log(val);
+})
+
+
