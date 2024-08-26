@@ -21,6 +21,15 @@ let ans = num.filter(function(value) {
     return value>3;
 })
 
+
+=> using arrow function 
+
+let num = [1,2,3,4,5,6,7,8]
+let ans = num.filter((value) => {
+    return value>3;
+})
+
+
 console.log(ans);  // output - [4,5,6,7,8]
 
 
@@ -52,11 +61,10 @@ console.log(ans);
 
 
 => to see each step sum 
-let num = [1, 2, 3, 4, 5];
-let ans = num.reduce((acc, val, index) => {
-    acc = acc + val;
-    console.log(`Step ${index + 1}: Accumulator = ${acc}`);
-    return acc;
-}, 0);
+let num = [1, 2, 3, 4, 5]
+let ans = num.reduce((acc, val) => {
+    console.log(`acc is ${acc} and val is ${val}`)
+    return acc = acc + val;
+},0)
 
-console.log('Final Result:', ans);
+console.log(ans);
