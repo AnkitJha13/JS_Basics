@@ -1,8 +1,5 @@
 
-
-
-
-
+// Different methods to create Objects
 // Using the new keyword 
 
  var object  = new Object();
