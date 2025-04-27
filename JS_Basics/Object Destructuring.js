@@ -18,6 +18,10 @@ console.log(year);   // Output: 1925
 
 
 
+for(let b in book){
+    console.log(b + ": " + book[b]);   // loops in Objects
+}          
+
   
 
 
