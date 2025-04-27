@@ -9,6 +9,12 @@ const a = 5;  // const values cannot be changed
 
 
 // Scope - it refers to the visibility of variables and functions within a program.
+// Global scope - it is the outermost scope in js.
+//              - variables and functions declared in the global scope are visible from anywhere in the program.
+
+
+// Local scope - 
+
 
 { 
   let x = 2;   // let is block scope
