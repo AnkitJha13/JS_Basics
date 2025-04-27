@@ -8,6 +8,8 @@ const a = 5;  // const values cannot be changed
 
 
 
+// Scope - it refers to the visibility of variables and functions within a program.
+
 { 
   let x = 2;   // let is block scope
 }
